@@ -1,0 +1,50 @@
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Arch Linux) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./french-guillemets-spaces.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texmf-dist/tex/latex/xltxtra/xltxtra.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/share/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/share/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/share/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/share/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/share/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/share/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/share/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/latex/realscripts/realscripts.sty)
+(/usr/share/texmf-dist/tex/latex/metalogo/metalogo.sty))
+(/usr/share/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texmf-dist/tex/latex/makecmds/makecmds.sty)
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
+(/usr/share/texmf-dist/tex/latex/polyglossia/gloss-french.ldf)
+
+LaTeX Warning: Unused global option(s):
+    [french].
+
+(./french-guillemets-spaces.aux) (/usr/share/texmf-dist/tex/latex/tipa/t3cmr.fd
+) [1] (./french-guillemets-spaces.aux) )
+Output written on french-guillemets-spaces.pdf (1 page).
+Transcript written on french-guillemets-spaces.log.

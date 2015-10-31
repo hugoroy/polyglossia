@@ -1,0 +1,42 @@
+% See  https://github.com/reutenauer/polyglossia/pull/116
+
+\documentclass[french]{article}
+
+\usepackage{ifxetex}
+\ifxetex
+    \usepackage{xltxtra,xunicode}
+    \usepackage{polyglossia}
+    \setmainlanguage{french}
+    \else
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{babel}
+\fi
+
+\begin{document}
+
+En français, le texte «~entre guillemets~» contient une espace
+insécable de même taille que les espaces de la ligne, entre la
+guillemet ouvrante et la guillemet fermante.
+
+\end{document}
+
+compilé avec la commande $ xelatex french-guillemets-spaces.tex
+
+XeTeX 3.14159265-2.6-0.99992 (TeX Live 2015/Arch Linux)
+kpathsea version 6.2.1
+Copyright 2015 SIL International, Jonathan Kew and Khaled Hosny.
+There is NO warranty.  Redistribution of this software is
+covered by the terms of both the XeTeX copyright and
+the Lesser GNU General Public License.
+For more information about these matters, see the file
+named COPYING and the XeTeX source.
+Primary author of XeTeX: Jonathan Kew.
+Compiled with ICU version 55.1; using 55.1
+Compiled with zlib version 1.2.8; using 1.2.8
+Compiled with FreeType2 version 2.6.0; using 2.6.1
+Compiled with Graphite2 version 1.3.2; using 1.3.3
+Compiled with HarfBuzz version 1.0.3; using 1.0.6
+Compiled with libpng version 1.6.18; using 1.6.18
+Compiled with poppler version 0.36.0
+Compiled with fontconfig version 2.11.1; using 2.11.1
