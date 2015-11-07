@@ -157,7 +157,7 @@
 \def\maitre{M\textsuperscript{e}~}
 
 \ifx\@makefntext\undefined\else
-\renewcommand\@makefntext[1]{\quad\@thefnmark.\space #1}
+\renewcommand\@makefntext[1]{\quad\if\@thefnmark\else\@thefnmark.\space\fi #1}
 \fi
 
 \endinput
