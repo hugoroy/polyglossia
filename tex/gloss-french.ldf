@@ -9,6 +9,12 @@
   hyphenmins={2,2},
   fontsetup=true}
 
+\providebool{french@liststyle}
+
+\ifx@liststyle\true
+  \def\labelitemi{--}
+\fi
+
 \ifluatex
   \newluatexattribute\xpg@frpt %
   \directlua{polyglossia.load_frpt()}%
