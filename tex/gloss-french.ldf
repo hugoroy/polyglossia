@@ -49,8 +49,8 @@
   %   \XeTeXinterchartoks \z@ \french@punctguillstart = {\nobreakspace}% "a«" unchanged?
   %   \XeTeXinterchartoks \french@punctguillend \z@ = {\nobreakspace}% "»a" unchanged?
       \XeTeXinterchartoks \z@ \french@punctguillend = {\nobreakspace}% "a»" -> "a »"
-  %   \XeTeXinterchartoks \french@punctguillstart 255 = {\nobreakspace\xpg@nospace}% "«  " -> "«~"
-  %   \XeTeXinterchartoks 255 \french@punctguillend = {\xpg@unskip\nobreakspace}% "  »" -> "~»"
+      \XeTeXinterchartoks \french@punctguillstart 255 = {\nobreakspace\xpg@unskip}% "«  " -> "«~"
+      \XeTeXinterchartoks 255 \french@punctguillend = {\xpg@unskip\nobreakspace}% "  »" -> "~»"
       \XeTeXinterchartoks \french@punctguillend \french@punctthin = {\nobreak\thinspace}% "»;" -> "» ;"
       \XeTeXinterchartoks \french@punctguillend \french@punctthick = {\nobreakspace}% "»:" -> "» :"
       \XeTeXinterchartoks \french@punctthin \french@punctguillend  = {\nobreakspace}% "?»" -> "? »"
@@ -146,16 +146,20 @@
 \def\nds{\textsuperscript{nds}}
 \def\nde{\textsuperscript{nde}}
 \def\ndes{\textsuperscript{ndes}}
-\def\no{\textsuperscript{o}}
-\def\nos{\textsuperscript{os}}
+\def\no{n\textsuperscript{o}}
+\def\nos{n\textsuperscript{os}}
+\def\No{N\textsuperscript{o}}
+\def\Nos{N\textsuperscript{os}}
 
-\def\mme{M\textsuperscript{me}\space}
-\def\mmes{M\textsuperscript{mes}\space}
-\def\mr{M.\space}
-\def\mrs{MM.\space}
+\def\mme{M\textsuperscript{me}~}
+\def\mmes{M\textsuperscript{mes}~}
+\def\mr{M.~}
+\def\mrs{MM.~}
+\def\dr{D\textsuperscript{r}~}
+\def\maitre{M\textsuperscript{e}~}
 
 \ifx\@makefntext\undefined\else
-\renewcommand\@makefntext[1]{\quad\@thefnmark.\space #1}
+\renewcommand\@makefntext[1]{\quad\ifx\@thefnmark\empty\else\@thefnmark.\space\fi #1}
 \fi
 
 \endinput
