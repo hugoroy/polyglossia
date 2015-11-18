@@ -146,10 +146,11 @@
 \def\nds{\textsuperscript{nds}}
 \def\nde{\textsuperscript{nde}}
 \def\ndes{\textsuperscript{ndes}}
-\def\no{n\textsuperscript{o}}
-\def\nos{n\textsuperscript{os}}
-\def\No{N\textsuperscript{o}}
-\def\Nos{N\textsuperscript{os}}
+
+\def\no{n\textsuperscript{o}\nobreak\thinspace}
+\def\nos{n\textsuperscript{os}\nobreak\thinspace}
+\def\No{N\textsuperscript{o}\nobreak\thinspace}
+\def\Nos{N\textsuperscript{os}\nobreak\thinspace}
 
 \def\mme{M\textsuperscript{me}~}
 \def\Mme{M\textsuperscript{me}~}
